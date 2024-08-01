@@ -50,7 +50,7 @@ Suitability for Iris Dataset: KMeans is suitable for the Iris dataset because it
 
 Preprocessing: Standardize the features to have zero mean and unit variance using StandardScaler. 
 
-Clustering: Apply KMeans with K=3 (as the dataset has three species). 
+Clustering: Apply KMeans with K=3 (as the dataset has three species and confirmed by elbow method, domain knowledge and silhouette score method). 
 
 Visualization: Use a scatter plot to visualize the clusters, coloring points by the cluster labels assigned by the algorithm. 
 
@@ -65,8 +65,9 @@ Suitability for Iris Dataset: Hierarchical clustering is useful for exploring da
 Preprocessing: Use the same standardized data as in KMeans. 
 
 Clustering: Apply agglomerative hierarchical clustering with different linkage criteria (e.g., 'ward', 'complete'). 
+            No of clusters '3' found by plotting a dendogram
 
-Visualization: Use a dendrogram to visualize the hierarchical structure and a scatter plot to visualize the final clusters. 
+Visualization: Used a dendrogram to visualize the hierarchical structure and a scatter plot to visualize the final clusters. 
 
 ## Conclusion 
 
