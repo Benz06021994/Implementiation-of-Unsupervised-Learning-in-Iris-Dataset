@@ -1,6 +1,8 @@
 # Implementiation-of-Unsupervised-Learning-in-Iris-Dataset
 The objective of this assessment is to apply and evaluate clustering techniques using the Iris dataset, a well-known dataset in machine learning and statistics. The assessment involves loading and preprocessing the data, implementing KMeans and Hierarchical clustering algorithms, and visualizing the resulting clusters
 
+Done by : Benz Babu 
+
 ## Dataset
 
     Dataset was directly imported from sklearn.datasets and implemented
@@ -9,13 +11,9 @@ The objective of this assessment is to apply and evaluate clustering techniques 
 
 The objective of this assessment is to apply and evaluate clustering techniques using the Iris dataset, a well-known dataset in machine learning and statistics. The assessment involves loading and preprocessing the data, implementing KMeans and Hierarchical clustering algorithms, and visualizing the resulting clusters. 
 
-### 1. Loading and Preprocessing 
+### Dataset Overview: 
 
-### Load the Iris Dataset 
-
-1. Loading and Preprocessing 
-
-Dataset Overview: The Iris dataset is a well-known dataset that contains measurements of four features from three different species of Iris flowers. 
+The Iris dataset is a well-known dataset that contains measurements of four features from three different species of Iris flowers. 
 
  The features are: 
 
@@ -28,6 +26,12 @@ Petal length
 Petal width 
 
 The dataset contains 150 samples with each sample belonging to one of three species: Iris setosa, Iris versicolor, and Iris virginica. For clustering purposes, the species column will be dropped to focus solely on the feature data. 
+
+## Loading and Preprocessing 
+
+### Load the Iris Dataset 
+
+Dataset was directly imported from sklearn.datasets and implemented in this project
 
 ### Preprocessing Steps: 
 
