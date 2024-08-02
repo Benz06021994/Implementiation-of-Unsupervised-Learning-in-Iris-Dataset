@@ -15,7 +15,9 @@ The objective of this assessment is to apply and evaluate clustering techniques 
 
 The Iris dataset is a well-known dataset that contains measurements of four features from three different species of Iris flowers. 
 
- The features are: 
+ 
+![Iris](https://github.com/user-attachments/assets/e67497bf-69d1-41b8-acfc-ca2b711d27c2)
+The features are: 
 
 Sepal length 
 
